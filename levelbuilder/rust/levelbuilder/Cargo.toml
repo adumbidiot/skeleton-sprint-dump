@@ -1,0 +1,10 @@
+[package]
+name = "levelbuilder"
+version = "0.0.0"
+authors = ["adumbidiot <nathaniel.daniel23@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+ggez = "0.5.1"
+sks = { path = "C:/Users/nathaniel/Documents/Github/sks-rs" }
+image = "0.23.0"
