@@ -1,0 +1,10 @@
+[package]
+name = "sks-levelbuilder"
+version = "0.1.0"
+authors = ["adumbidiot <nathaniel.daniel23@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+ggez = "0.5.0-rc.2" #hidpi support is broken
+#ggez = "0.4"
+stretch = "0"
