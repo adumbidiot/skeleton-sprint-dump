@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\input.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\vulkan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_tls.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\wgl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\egl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{186E590C-8D80-3F9A-8B95-9C44393D34E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

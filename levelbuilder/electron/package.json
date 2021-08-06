@@ -1,0 +1,22 @@
+{
+  "name": "skeleton-sprint-levelbuilder",
+  "version": "1.0.0",
+  "description": "",
+  "entry": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "build-win": "electron-packager . skeleton-sprint-levelbuilder --icon=assets/icon.ico --out=dist --overwrite  --ignore=\"src|rollup.config.js|package-lock.json|New Text Document.txt\"",
+    "build-scripts": "rollup -c",
+    "watch-build-scripts": "rollup -c -w"
+  },
+  "author": "nano",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-packager": "^12.1.0",
+    "rollup": "^0.60.1",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-svelte": "^4.1.0",
+    "svelte": "^2.7.2"
+  }
+}

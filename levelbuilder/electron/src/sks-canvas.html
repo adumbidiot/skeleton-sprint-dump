@@ -1,0 +1,54 @@
+<style>
+	.main{
+		background-color: #777777;
+		height: 100%;
+		position: relative;
+		display: inline-flex;
+		flex-grow: 9;
+	}
+</style>
+<div class="main" on:mousedown=onmousedown(event) on:mouseup=onmouseup(event) on:mouseleave=onmouseleave(event)>
+	<canvas ref:canvas width="1920" height="1080" style="width: 800px; height: 450px;"></canvas>
+</div>
+<script>
+	import SKSRenderer from './SKSRenderer.js';
+	
+	export default{
+		methods: {
+			onmousedown(e){
+				console.log('down');
+			},
+			onmouseup(e){
+				console.log('up');
+			},
+			onmouseleave(){
+				console.log('lev'); //Consider "up"
+			},
+			onmouseenter(){
+				console.log('Enter');
+			}
+			getRenderer(){
+				const renderer = new SKSRenderer({
+					canvas: this.refs.canvas
+				});
+				renderer.setDef('B0', 'assets/block.png');
+				renderer.setDef('M0', 'assets/background.png', true);
+				
+				let arr = [];
+				for(let i = 0; i != 32 * 18; i++){
+					arr.push('00');
+				}
+				arr[0] = 'M0';
+				renderer.writeChunk(0, arr);
+				return renderer;
+			}
+		},
+		oncreate(){
+			const renderer = this.getRenderer();
+			
+			
+			
+			this.set({renderer});
+		}
+	}
+</script>

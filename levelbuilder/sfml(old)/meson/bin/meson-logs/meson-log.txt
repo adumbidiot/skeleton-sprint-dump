@@ -1,0 +1,55 @@
+Build started at 2018-03-10T15:57:42.910681
+Main binary: C:\Program Files (x86)\Meson\meson.exe
+Python system: Windows
+The Meson build system
+Version: 0.44.1
+Source dir: C:\Users\Nathaniel\Desktop\html\lvlbuilder\meson
+Build dir: C:\Users\Nathaniel\Desktop\html\lvlbuilder\meson\bin
+Build type: native build
+Project name: lvlbuilder
+Native C++ compiler: c++ (gcc 6.3.0)
+Build machine cpu family: x86
+Build machine cpu: x86
+Found pkg-config: C:\MinGW\bin\pkg-config.EXE (0.28)
+Determining dependency 'sfml' with pkg-config executable 'C:\\MinGW\\bin\\pkg-config.EXE'
+
+Executing subproject sfml.
+
+Project name: SFML
+Native C++ compiler: c++ (gcc 6.3.0)
+Running compile:
+Working directory:  C:\Users\Nathaniel\AppData\Local\Temp\tmpagjnoak0
+Command line:  c++ C:\Users\Nathaniel\AppData\Local\Temp\tmpagjnoak0\testfile.cpp -O0 -fpermissive -Wl,--start-group -Wl,--start-group -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -Wl,--end-group -Wl,--end-group -pipe -E -P 
+
+Code:
+ 
+        
+        #ifndef __MINGW32__
+        # define __MINGW32__
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+__MINGW32__
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+1
+
+Compiler stderr:
+ 
+Fetching value of define "__MINGW32__": 1
+Message: ENV is mingw, appending mingw headers
+Build targets in project: 1
+
+Subproject sfml finished.
+Found a fallback subproject subprojects\sfml for sfml
+Determining dependency 'one' with pkg-config executable 'C:\\MinGW\\bin\\pkg-config.EXE'
+
+Executing subproject one.
+
+Project name: One
+Native C++ compiler: c++ (gcc 6.3.0)
+Build targets in project: 2
+
+Subproject one finished.
+Found a fallback subproject subprojects\one for one
+Build targets in project: 3
+Found ninja-1.8.2.git at 'C:\Program Files (x86)\Meson\ninja.EXE'

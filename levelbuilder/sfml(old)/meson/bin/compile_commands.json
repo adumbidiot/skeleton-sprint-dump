@@ -1,0 +1,17 @@
+[
+  {
+    "directory": "C:\\Users\\Nathaniel\\Desktop\\html\\lvlbuilder\\meson\\bin",
+    "command": "c++ @subprojects/sfml/src/SFML/SFML@sta/Window_Window.cpp.obj.rsp",
+    "file": "../subprojects/sfml/src/SFML/Window/Window.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Nathaniel\\Desktop\\html\\lvlbuilder\\meson\\bin",
+    "command": "c++ @subprojects/one/one@sta/one.cpp.obj.rsp",
+    "file": "../subprojects/one/one.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Nathaniel\\Desktop\\html\\lvlbuilder\\meson\\bin",
+    "command": "c++ @lvlbuilder@exe/main.cpp.obj.rsp",
+    "file": "../main.cpp"
+  }
+]

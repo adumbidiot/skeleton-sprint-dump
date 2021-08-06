@@ -1,0 +1,46 @@
+<style>
+	.main{
+		height: 3rem;
+		background-color: #383838;
+		width: 100%;
+		user-select: none;
+		overflow: hidden;
+		cursor: default;
+	}
+	.logo{
+		width: 2.5rem;
+		font-size: 2.5rem;
+		margin: .25rem;
+	}
+	.item{
+		color: white;
+		text-align: center;
+		height: 2.5rem;
+		position: relative;
+		float: left;
+		margin: .25rem;
+		margin-left: 0.4rem;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+	}
+	button{
+		background-color: #383838;
+		border: 0px;
+		outline: none;
+		cursor: pointer;
+	}
+</style>
+<div class="main">
+	<div class="logo item">SS</div>
+	<button class="item" on:click="fire('file', {})">File</button>
+	<button class="item">Edit</button>
+	<button class="item">Template</button>
+	<button class="item">Help</button>
+</div>
+<script>
+	export default {
+		
+	}
+</script>

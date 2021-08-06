@@ -1,0 +1,1 @@
+  -o lvlbuilder.exe lvlbuilder@exe/main.cpp.obj "-Wl,--no-undefined" "-Wl,--as-needed" "-Wl,--start-group" "subprojects\\one\\libone.a" "subprojects\\sfml\\src/SFML\\libSFML.a" "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" "-Wl,--end-group"  

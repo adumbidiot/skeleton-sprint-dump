@@ -1,0 +1,1 @@
+subdir(join_paths('headers', 'mingw'))

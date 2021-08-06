@@ -1,0 +1,3 @@
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/sfml/build/CMakeFiles/lvlbuilder.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/sfml/build/CMakeFiles/edit_cache.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/sfml/build/CMakeFiles/rebuild_cache.dir

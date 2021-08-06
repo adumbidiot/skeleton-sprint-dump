@@ -1,0 +1,12 @@
+# ninja log v5
+14	141	5424290736713909	subprojects/one/one@sta/one.cpp.obj	c4cf1a533939fd8a
+142	226	5424290737636355	subprojects/one/libone.a	f53a0a912e21da6f
+9	832	5424290743702494	lvlbuilder@exe/main.cpp.obj	11c49afa98c48493
+1	1132	5424290746709330	subprojects/sfml/src/SFML/SFML@sta/Window_Window.cpp.obj	6a69d9bc76ee1fff
+1137	1204	5424290747428931	subprojects/sfml/src/SFML/libSFML.a	2918a18cb834164
+1	634	5424294535111506	build.ninja	7f9b058a7d6f290d
+1	622	5424294541598719	lvlbuilder@exe/main.cpp.obj	e5e5460d4e9b8a5d
+1	626	5424294632950676	build.ninja	7f9b058a7d6f290d
+8	687	5424294640079638	lvlbuilder@exe/main.cpp.obj	11c49afa98c48493
+2	1109	5424294644327482	subprojects/sfml/src/SFML/SFML@sta/Window_Window.cpp.obj	6a69d9bc76ee1fff
+1114	1184	5424294645049438	subprojects/sfml/src/SFML/libSFML.a	2918a18cb834164

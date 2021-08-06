@@ -1,0 +1,43 @@
+<style>
+	.main{
+		width: 100%;
+		height: 100%;
+		background-color: #000000;
+	}
+	.wrapper{
+		left: 1rem;
+		right: 1rem;
+		top: 4rem;
+		bottom: 1rem;
+		position: absolute;
+		display: flex;
+	}
+</style>
+<div class="main">
+	<SKSNav on:file=fileHandler(e) />
+	<div class="wrapper">
+		<SKSCanvas />
+		<SKSToolbar />
+	</div>
+</div>
+<script>
+	import store from './store.js';
+
+	import SKSNav from './sks-nav.html';
+	import SKSCanvas from './sks-canvas.html';
+	import SKSToolbar from './sks-toolbar.html';
+	
+	export default {
+		methods: {
+			fileHandler(e){
+				console.log('a', e);
+			}
+		},
+		components: {
+			SKSNav,
+			SKSCanvas,
+			SKSToolbar
+		},
+		store: () => store 
+	}
+</script>

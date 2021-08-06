@@ -1,0 +1,9 @@
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/CMakeFiles/levelbuilder.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/CMakeFiles/nanogui.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/CMakeFiles/nanogui-obj.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/CMakeFiles/ALL_BUILD.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/ext_build/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir
+C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir

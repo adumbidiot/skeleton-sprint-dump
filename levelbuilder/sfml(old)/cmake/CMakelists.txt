@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+#static vars
+#set(SFML_STATIC_LIBRARIES TRUE)
+#set(SFML_STATIC TRUE)
+#end static vars
+
+#if windows console linker flag
+set(CMAKE_EXE_LINKER_FLAGS "-Wl,-subsystem,windows")
+#end windows
+
+# if win
+file(COPY sfml_bin/win/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+#end if win
+
+file(COPY assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+project(levelbuilder)
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake) # Tell CMake where to find the module
+find_package(SFML REQUIRED COMPONENTS graphics window system) # Look for SFML
+include_directories(${SFML_INCLUDE_DIR})
+
+
+#C:\Users\Nathaniel\Documents\C++\SFML\install
+
+
+add_executable(levelbuilder src/main.cpp src/Game.cpp)
+target_include_directories(levelbuilder PRIVATE include)
+target_link_libraries(levelbuilder ${SFML_LIBRARIES} ${SFML_DEPENDENCIES}) # Link SFML and dependencies

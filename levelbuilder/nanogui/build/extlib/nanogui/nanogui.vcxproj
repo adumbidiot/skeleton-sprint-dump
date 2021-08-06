@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{505DA68D-E4A7-3D8E-B632-F7B323DD9592}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>nanogui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nanogui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nanogui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nanogui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nanogui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">nanogui.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">nanogui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">nanogui.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">nanogui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR="Debug";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"Debug\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/Debug/nanogui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/Debug/nanogui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR="Release";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"Release\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/Release/nanogui.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/Release/nanogui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR="MinSizeRel";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"MinSizeRel\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/MinSizeRel/nanogui.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/MinSizeRel/nanogui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR="RelWithDebInfo";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NANOGUI_EIGEN_DONT_ALIGN;NDEBUG;_CRT_SECURE_NO_WARNINGS;NANOGUI_SHARED;NVG_SHARED;GLAD_GLAPI_EXPORT;NANOGUI_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";nanogui_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glad\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\eigen;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\glfw\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\ext\nanovg\src;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\include;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/RelWithDebInfo/nanogui.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/RelWithDebInfo/nanogui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui -BC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build --check-stamp-file C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceRuns.cmake;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui -BC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build --check-stamp-file C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceRuns.cmake;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui -BC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build --check-stamp-file C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceRuns.cmake;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui -BC:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build --check-stamp-file C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/build/extlib/nanogui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Nathaniel/Desktop/html/lvlbuilder/nanogui/extlib/nanogui/CMakeLists.txt;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceRuns.cmake;C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\extlib\nanogui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\nanovg.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\glad.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\nanogui_resources.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\glutil.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\common.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\widget.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\theme.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\layout.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\screen.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\label.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\window.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\popup.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\checkbox.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\button.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\popupbutton.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\combobox.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\progressbar.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\slider.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\messagedialog.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\textbox.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\imagepanel.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\imageview.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\vscrollpanel.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\colorwheel.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\colorpicker.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\graph.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\stackedwidget.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\tabheader.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\tabwidget.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\glcanvas.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.dir\$(Configuration)\serializer.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\context.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\init.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\input.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\monitor.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\vulkan.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\window.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_init.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_joystick.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_monitor.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_time.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_tls.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\win32_window.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\wgl_context.obj" />
+    <Object Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.dir\$(Configuration)\egl_context.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\ZERO_CHECK.vcxproj">
+      <Project>{330747D6-A20E-3C34-A4E3-676192CFF931}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\ext_build\glfw\src\glfw_objects.vcxproj">
+      <Project>{CD9374F8-B838-3B6A-8BBB-9E73DDDFBAE5}</Project>
+      <Name>glfw_objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Nathaniel\Desktop\html\lvlbuilder\nanogui\build\extlib\nanogui\nanogui-obj.vcxproj">
+      <Project>{C7A9BB0B-916A-30D9-9ED1-B5AA7F16A1A3}</Project>
+      <Name>nanogui-obj</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
