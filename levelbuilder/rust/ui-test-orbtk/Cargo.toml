@@ -1,0 +1,9 @@
+[package]
+name = "ui-test"
+version = "0.1.0"
+authors = ["adumbidiot <nathaniel.daniel23@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+orbtk = { git = "https://gitlab.redox-os.org/redox-os/orbtk.git", features = ["experimental", "debug"]}
+sdl2 = {version = "0", features = ["bundled"]}
